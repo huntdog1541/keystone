@@ -21,7 +21,7 @@ PATH_LIB64 = "prebuilt/win64/keystone.dll"
 PATH_LIB32 = "prebuilt/win32/keystone.dll"
 
 # package name can be 'keystone-engine' or 'keystone-engine-windows'
-PKG_NAME = 'keystone-engine'
+PKG_NAME = 'keystone-engine-local'
 if os.path.exists(PATH_LIB64) and os.path.exists(PATH_LIB32):
     PKG_NAME = 'keystone-engine-windows'
 
